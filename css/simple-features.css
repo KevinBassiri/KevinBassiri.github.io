@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+}
+hr {
+    margin-top: 25px;
+    margin  -bottom: 25px;
+}
+#biography-container{
+    background: #686869;
+    color: #FFF;
+    padding: 65px 0px 40px;
+    text-align: left;
+}
+.homepage-text{
+    line-height: 20px;
+}
+#biography-container img {
+    padding: 0px;
+    height: auto;
+    /* padding: 20px; Prevents proper resizing of images */
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.project{
+    padding-bottom: 20px;
+    background: #b1b1b1;
+    border-bottom: 17.5px solid #6A6A6A;
+    text-align: center;
+}
+.project h3 {
+    margin-top: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #FFF;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+}
+.project p {
+    padding: 0px 10px 0px 10px;
+    line-height: 24px;
+    font-style: italic;
+}
+.project button{
+    margin: 0px 15px 0px 15px;
+}
+.tile-header{
+    margin: 40px 0px 40px 0px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.project-container{
+    background: #969694;
+}
+.blog-container{
+    background: #969694;
+    padding-bottom: 50px;
+}
+.blog img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.project-bottom{
+    text-align: center;
+}
+.container-fluid {
+    margin-right: auto; /* Affects the horizontal position of containers */
+    margin-left: auto; /* Affects the horizontal position of containers */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-sm-8 {
+    width: 66.6667%;
+}
+.col-sm-12 {
+    width: 100%;
+}
+.col-sm-offset-2 {
+    margin-left: 16.6667%;
+}
+/* Removed the code for grid-containers */
+h4 {
+    color: #FFF;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 30px; /* Similar to padding/margin, but forces elements away from it on top and bottom */
+}
+.link h4{
+    font-style: italic;
+}
+.link .btn-text{
+    font-style: normal;
+}
+h2 {
+    color: #FFF;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 50%;
+}
+/* Removed the code for grid-containers */
+h3 {
+    color: #FFF;
+    font-family: "Montserrat",sans-serif;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 30px; 
+}
+h1 {
+    color: #FFF;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 550;
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 150%;
+}
+h5 {
+    color: #FFF;
+    font-family: "Montserrat",sans-serif;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+p {
+    margin: 0px 0px 15px; /* top 0px (first), right 0px (second), bottom 30px (third), left auto (fourth) margin */ 
+}
+img {
+    max-width: 100%;
+    border: 0px none;
+    vertical-align: middle;
+}
+.col-sm-4 {
+    width: 33.3333%;
+}
+body { /* Default properties */
+    color: #FFF;
+    font-family: "Merriweather", serif;
+    height: 100%;
+    margin: 0px 0px 0px;
+    padding: 0px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.body-container{
+    padding: 40px 0px 40px 0px;
+    background: #969694;
+}
+.body-container .tile-header{
+    margin-top: 0px;
+}
+.link {
+    padding: 75px 0px 65px;
+    background: #686869;
+    color: #FFFFFF;
+    text-align: center;
+}
+html {
+    height: 100%;
+}
+
+/* Jumbotron */
+.jumbotron {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+  background-image:
+    linear-gradient(
+      to right,
+      black,
+      grey 10%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 48px 0px;
+}
+.jumbotron-content{
+    text-align: center;
+}
+.jumbotron .jumbotron-content .jumbotron-paragraph {
+    text-align: center;
+    margin-top: 225px;
+}
+.jumbotron .jumbotron-content .jumbotron-paragraph h1 {
+    color: #FFF;
+}
+.jumbotron .jumbotron-content .jumbotron-paragraph hr {
+    border-top: 3px solid #69DCCD;
+    width: 15%;
+    margin-top: 0px;
+}
+/* #Jumbotron */
+
+
+/* Navbar */
+nav.navbar.shrink {
+    min-height: 68px;
+    background: #969594;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-fixed-top {
+    top: 0px;
+    border-width: 0px 0px 1px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+}
+.navbar {
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+nav {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav > li{
+    background-color: inherit;
+    transition: background-color 0.5s;
+}
+.navbar-header {
+    float: left;
+}
+nav a {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 14px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.navbar-brand {
+    float: left;
+    margin: 0 40px;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-collapse.collapse {
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+    padding-bottom: 0px;
+    overflow: visible !important;
+        overflow-x: visible;
+        overflow-y: visible;
+}
+nav.navbar.shrink .navbar-brand img, .navbar-brand img {
+    display: inline-block;
+    height: 60px;
+    margin-top: -16px;
+}
+.navbar-collapse {
+    width: auto;
+    border-top: 0px none;
+    box-shadow: none;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+.navbar-nav {
+    margin: 0px -15px;
+}
+/* #Navbar */
+
+
+a, a:hover, a:active, a:visited {
+    background-color: transparent;
+    color: #232325;
+    text-decoration: none;
+}
+.navbar-nav > li {
+    float: left;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #232325;
+    line-height: 30px;
+    transition: 0.75s;
+    float: left;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #F5F4F3;
+}
+ul {
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+footer {
+    color: #232325;
+    padding: 30px 20px 0px 20px;
+    background-color: #969695;
+    font-size: 16px;
+    text-align: center;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+footer .social-icons a {
+    margin-top: -70px;
+}
+footer ul.footer-links li a {
+    padding: 5px;
+    margin: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+footer ul.footer-links li {
+    display: inline;
+}
+footer .copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.fa-3{
+    font-size: 2em;
+    padding: 10px;
+    transition: 0.5s;
+}
+.fa-3:hover{
+    color: #FFF;
+}
+.photo-footer {
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photo-footer.homepage {
+    background-image: url("http://cdn.mhpbooks.com/uploads/2015/06/books.jpg");
+}
+.portfolio-text p, .portfolio-text h3{
+    text-align: left;
+}
+.btn-info{
+    color: #232325;
+    letter-spacing: 0px;
+    line-height: 25px;
+    background-color: #969594;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    transition: 0.75s;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0 20px;
+}
+.btn-info:hover{
+    opacity: 0.75;
+    background-color: #b1b1b1;
+    border: transparent;
+}
+.btn-contact{
+    color: #232325;
+    letter-spacing: 0px;
+    line-height: 25px;
+    background-color: #969594;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    transition: 0.75s;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn-contact:hover{
+    opacity: 0.75;
+    background-color: #b1b1b1;
+    border: transparent;
+}
+.sub-jumbotron{
+    background-image: url("http://i.imgur.com/2j8KeWD.jpg");
+}
+.sub-jumbotron{
+    height: 30%;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+label {
+    font-size: 13px;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.contact-name, .contact-email, .contact-subject, .contact-message{
+    margin: 0;
+    padding: 0 6px;
+    vertical-align: middle;
+    background: none;
+    border: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+    border-radius: 0;
+    box-shadow: none;
+    width: 95%;
+    height: 34px;
+}
+.contact-message{
+    height: 170px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.contact-tile{
+    background: #b1b1b1;
+    border-bottom: 17.5px solid #6A6A6A;
+    text-align: center;
+    line-height: 24px;
+}
+.contact-tile p{
+    /* Continue working on during 5/20/2016 */
+}
+input:focus, textarea:focus{
+    outline: none !important; /* Removes the disgusting default orange color */
+    border:1px solid #969594;
+    box-shadow: 0 0 10px #719ECE;
+}
+.blog-topic{
+    color: #232325;
+}

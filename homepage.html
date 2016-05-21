@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <!-- 2/7/2016 Checklist -->
+    <!--
+     1. Create a dropdown onHover inside the navbar
+     2. Use CSS to change the style of the buttons to your own unique theme
+     3. Add additional tiles to the bottom of the page, research how the JS works for them
+     4. Add 3 additional pages to the site using the same stylesheets
+    -->
+    <!-- COMPLETE BEFORE 2/12/2016 --> 
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"       crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="css/simple-features.css" rel="stylesheet">
+    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type = "text/javascript">
+    function mover(id,img)
+        {
+            document.getElementById(id).src=img;
+        }
+    function mout(id,img)
+        {
+            document.getElementById(id).src=img;
+        }
+    </script>
+</head>
+
+<body>
+
+<div class = "main-nav">
+    <nav class="navbar navbar-default navbar-fixed-top shrink">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="homepage.html"><img src="http://cdn.dota2.com/apps/dota2/images/blogfiles/dota_major_cities.jpg" alt="Todaymade"></a>
+        </div> <!--.navbar-header -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+</div>
+    
+<!-- Jumbotron -->
+<div class="jumbotron">
+    <div class = "jumbotron-content">
+        <div class = "container">
+            <div class = "jumbotron-paragraph">
+                <div class = "col-sm-8 col-sm-offset-2">
+                    <h1>User Name</h1>
+                    <hr></hr>
+                    <h4>Junior Web Developer </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /#jumbotron -->
+
+<!-- biography-container -->
+<div id = "biography-container">
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-md-3 homepage-image">
+                <img src="http://i.imgur.com/HdFuJcQ.png" class ="center-block">
+            </div>
+            <div class = "col-md-9 homepage-text">
+                <h4>I'm Here!</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget interdum purus, eu consectetur justo. Fusce venenatis gravida eros non ultrices. Maecenas viverra lorem et tellus elementum tincidunt id a sem. Donec porta sit amet nunc sed varius. Ut eu augue a ligula sagittis auctor. </p>
+               <button class="btn-info pull-right" href="biography.html">Read More</btn>
+            </div>
+        </div>
+    </div>
+</div>    
+<!-- /#biography-container -->
+
+<!-- project-container -->
+<div class = "project-container">
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-xs-12">
+                <h3 class = "tile-header">Newest Projects</h3>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-xs-4">
+                 <div class= "project one">
+                    <img src="http://i.imgur.com/g6frFEc.jpg">
+                    <h3>Lorem Website</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                    <div class="project-bottom row">
+                        <button class="btn-info" href="projects.html">Read More</btn>
+                        <button class="btn-info" href="projects.html">Preview</btn>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-xs-4">
+                <div class= "project two">
+                    <img src="http://i.imgur.com/g6frFEc.jpg">
+                    <h3>Lorem Website</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                    <div class="project-bottom">
+                        <button class="btn-info" href="projects.html">Read More</btn>
+                        <button class="btn-info" href="projects.html">Read More</btn>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-xs-4">
+                <div class= "project three">
+                    <img src="http://i.imgur.com/g6frFEc.jpg">
+                    <h3>Lorem Website</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                    <div class="project-bottom">
+                        <button class="btn-info" href="projects.html">Read More</btn>
+                        <button class="btn-info" href="projects.html">Read More</btn>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        
+<!-- #/project-container -->
+
+<!-- blog-container -->
+<div class = "blog-container">
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-xs-12">
+                <h3 class = "tile-header">Recent Blog Posts</h3>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-xs-4">
+                 <div class= "project">
+                    <img src="http://i.imgur.com/g6frFEc.jpg">
+                    <h3>Lorem Website</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                    <div class="project-bottom">
+                        <button class="btn-info" href="blog.html">Read More</btn>
+                        <button class="btn-info" href="blog.html">Read More</btn>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-xs-4">
+                <div class= "project">
+                    <img src="http://i.imgur.com/g6frFEc.jpg">
+                    <h3>Lorem Website</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                    <div class="project-bottom">
+                        <button class="btn-info" href="blog.html">Read More</btn>
+                        <button class="btn-info" href="blog.html">Read More</btn>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-xs-4">
+                <div class= "project">
+                    <img src="http://i.imgur.com/g6frFEc.jpg">
+                    <h3>Lorem Website</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                    <div class="project-bottom">
+                        <button class="btn-info" href="blog.html">Read More</btn>
+                        <button class="btn-info" href="blog.html">Read More</btn>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+<!-- /#blog-container -->
+    
+
+<!-- link -->
+<div class = "link">
+    <h4>Send me a message on my <button class = "btn-contact">Contacts</button> page!
+    </h4>
+</div>
+<!-- /#link -->
+
+<div class = "photo-footer homepage">
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-sm-12">
+                <ul class = "footer-links">
+                    <li><a href="homepage.html">Home</a></li>/
+                    <li><a href="projects.html">Projects</a></li>/
+                    <li><a href="biography.html">Biography</a></li>/
+                    <li><a href="blog.html">Blog</a></li>/
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class = "col-sm-12">
+                <div class = "social-icons">
+                    <a class="fa fa-facebook fa-3" aria-hidden="true" href="homepage.html"></a>
+
+                    <a class="fa fa-twitter fa-3" aria-hidden="true" href="homepage.html"></a>
+                    
+                    <a class="fa fa-linkedin fa-3" aria-hidden="true" href="homepage.html"></a>
+
+                    <a class="fa fa-github fa-3" aria-hidden="true" href="homepage.html"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "copyright">
+        <p>ID – 208-640-1268 © 2016, Last Edited 5/11/2016</p>
+    </div>
+</footer>
+<!-- /#footer -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

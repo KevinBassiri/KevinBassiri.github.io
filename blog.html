@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <!-- 2/7/2016 Checklist -->
+    <!--
+     1. Create a dropdown onHover inside the navbar
+     2. Use CSS to change the style of the buttons to your own unique theme
+     3. Add additional tiles to the bottom of the page, research how the JS works for them
+     4. Add 3 additional pages to the site using the same stylesheets
+    -->
+    <!-- COMPLETE BEFORE 2/12/2016 --> 
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kevin Bassiri Portfolio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"       crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="css/simple-features.css" rel="stylesheet">
+    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type = "text/javascript">
+    function mover(id,img)
+        {
+            document.getElementById(id).src=img;
+        }
+    function mout(id,img)
+        {
+            document.getElementById(id).src=img;
+        }
+    </script>
+</head>
+
+<body>
+
+<div class = "main-nav">
+    <nav class="navbar navbar-default navbar-fixed-top shrink">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="homepage.html"><img src="http://cdn.dota2.com/apps/dota2/images/blogfiles/dota_major_cities.jpg" alt="Todaymade"></a>
+        </div> <!--.navbar-header -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="projects.html" class = "blink">Projects</a></li>
+                <li><a href="biography.html" class = "blink">Biography</a></li>
+                <li><a href="blog.html" class = "blink">Blog</a></li>
+                <li><a href="contact.html" class = "blink">Contact</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+</div>
+    
+<!-- sub-jumbotron -->
+<div class = "sub-jumbotron contact">
+    <div class="sub-jumbotron-content">
+        <div class="container">
+            <hr>
+            <h2>Viewing my Blog</h2>
+            <h5>Inevitably filled with innumerable posts</h5>
+        </div>
+    </div>
+</div>
+<!-- /#sub-jumbotron -->
+
+<!-- project-page-content -->
+<div class = "body-container blog">
+    <div class="container">
+        <div class="row">
+            
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-12">
+                <!-- First Blog Post -->
+                <div class = "blog-topic">
+                    <h2>
+                        <a href="#">Blog Post Title</a>
+                    </h2>
+                    <p><span class="glyphicon glyphicon-time"></span> Posted on May 12 - 8:31 PM</p>
+                </div>
+                <hr>
+                <img src="http://placehold.it/900x300" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
+                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <hr>    
+
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="previous">
+                        <a href="#">← Older</a>
+                    </li>
+                    <li class="next">
+                        <a href="#">Newer →</a>
+                    </li>
+                </ul>
+
+            </div>       
+        </div>
+    </div>
+</div>
+<!-- /#project-page-content -->
+
+
+<!-- link -->
+<div class = "link">
+    <p class = "intro-p">Send me a message on 
+    <button class = "btn-default-white">Our Contacts</button> page!
+    </p>
+</div>
+<!-- /#link -->
+
+<div class = "photo-footer homepage">
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-sm-12">
+                <ul class = "footer-links">
+                    <li><a href="homepage.html">Home</a></li>/
+                    <li><a href="projects.html">Projects</a></li>/
+                    <li><a href="biography.html">Biography</a></li>/
+                    <li><a href="blog.html">Blog</a></li>/
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class = "col-sm-12">
+                <div class = "social-icons">
+                    <a class="fa fa-facebook fa-3" aria-hidden="true" href="homepage.html"></a>
+
+                    <a class="fa fa-twitter fa-3" aria-hidden="true" href="homepage.html"></a>
+                    
+                    <a class="fa fa-linkedin fa-3" aria-hidden="true" href="homepage.html"></a>
+
+                    <a class="fa fa-github fa-3" aria-hidden="true" href="homepage.html"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "copyright">
+        <p>ID – 208-640-1268 © 2016, Last Edited 5/03/2016</p>
+    </div>
+</footer>
+<!-- /#footer -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
