@@ -6,7 +6,7 @@ hr {
     margin  -bottom: 25px;
 }
 #biography-container{
-    background: #686869;
+    background: #343838;
     color: #FFF;
     padding: 65px 0px 40px;
     text-align: left;
@@ -23,15 +23,22 @@ hr {
 }
 .project{
     padding-bottom: 20px;
-    background: #b1b1b1;
-    border-bottom: 17.5px solid #6A6A6A;
+    background: #00B4CC;
+    border-bottom: 17.5px solid #00DFFC;
     text-align: center;
+}
+.project hr{
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+.project-container hr, .blog-container hr{
+    margin-top: 0px;
 }
 .project h3 {
     margin-top: 15px;
     font-family: "Montserrat",sans-serif;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 15px;    
     color: #FFF;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
@@ -45,14 +52,12 @@ hr {
 }
 .tile-header{
     margin: 40px 0px 40px 0px;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
 }
 .project-container{
-    background: #969694;
+    background: #008C9E;
 }
 .blog-container{
-    background: #969694;
+    background: #008C9E;
     padding-bottom: 50px;
 }
 .blog img{
@@ -152,14 +157,14 @@ body { /* Default properties */
 }
 .body-container{
     padding: 40px 0px 40px 0px;
-    background: #969694;
+    background: #008C9E;
 }
 .body-container .tile-header{
     margin-top: 0px;
 }
 .link {
     padding: 75px 0px 65px;
-    background: #686869;
+    background: #343838;
     color: #FFFFFF;
     text-align: center;
 }
@@ -203,7 +208,7 @@ html {
 /* Navbar */
 nav.navbar.shrink {
     min-height: 68px;
-    background: #969594;
+    background: #343838;
 }
 .navbar-default {
     background-color: transparent;
@@ -294,13 +299,14 @@ a, a:hover, a:active, a:visited {
     float: left;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #232325;
+    color: #FFF;
     line-height: 30px;
     transition: 0.75s;
     float: left;
 }
 .navbar-default .navbar-nav > li > a:hover {
-    color: #F5F4F3;
+    color: #00DFFC;
+    background-color: #005F6B;
 }
 ul {
     margin-top: -5px;
@@ -309,8 +315,10 @@ ul {
 
 footer {
     color: #232325;
+    font-weight: 600;
+    letter-spacing: 2px;
     padding: 30px 20px 0px 20px;
-    background-color: #969695;
+    background-color: #005F6B;
     font-size: 16px;
     text-align: center;
 }
@@ -360,19 +368,21 @@ footer .copyright {
     color: #232325;
     letter-spacing: 0px;
     line-height: 25px;
-    background-color: #969594;
+    background-color: #FFF;
+    font-family: sans-serif;
     height: 25px;
-    width: auto;
+    width: 125px;
     text-align: center;
     transition: 0.75s;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid transparent;
     padding: 0 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px #005F6B;
 }
 .btn-info:hover{
-    opacity: 0.75;
-    background-color: #b1b1b1;
-    border: transparent;
+    background-color: #005F6B;
+    box-shadow: 0 1px #27496d;
 }
 .btn-contact{
     color: #232325;
@@ -390,6 +400,7 @@ footer .copyright {
     opacity: 0.75;
     background-color: #b1b1b1;
     border: transparent;
+    outline: none !important;
 }
 .sub-jumbotron{
     background-image: url("http://i.imgur.com/2j8KeWD.jpg");
@@ -437,10 +448,8 @@ label {
 .contact-tile p{
     /* Continue working on during 5/20/2016 */
 }
-input:focus, textarea:focus{
+input:focus, textarea:focus, a:focus, button:focus{
     outline: none !important; /* Removes the disgusting default orange color */
-    border:1px solid #969594;
-    box-shadow: 0 0 10px #719ECE;
 }
 .blog-topic{
     color: #232325;
