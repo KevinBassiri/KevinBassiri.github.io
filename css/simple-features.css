@@ -3,7 +3,7 @@
 }
 hr {
     margin-top: 25px;
-    margin  -bottom: 25px;
+    margin-bottom: 25px;
 }
 #biography-container{
     background: #343838;
@@ -36,6 +36,7 @@ hr {
 }
 .project h3 {
     margin-top: 15px;
+    margin-bottom: 5px;
     font-family: "Montserrat",sans-serif;
     font-weight: 100;
     font-size: 15px;    
@@ -54,14 +55,15 @@ hr {
     margin: 40px 0px 40px 0px;
 }
 .project-container{
-    background: #008C9E;
+    background: #41848c;
 }
 .blog-container{
-    background: #008C9E;
+    background: #41848c;
     padding-bottom: 50px;
 }
 .blog img{
     width: 100%;
+    height: 300px;
     margin-bottom: 20px;
 }
 .project-bottom{
@@ -148,7 +150,8 @@ img {
 }
 body { /* Default properties */
     color: #FFF;
-    font-family: "Merriweather", serif;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 400;
     height: 100%;
     margin: 0px 0px 0px;
     padding: 0px;
@@ -157,13 +160,13 @@ body { /* Default properties */
 }
 .body-container{
     padding: 40px 0px 40px 0px;
-    background: #008C9E;
+    background: #41848c;
 }
 .body-container .tile-header{
     margin-top: 0px;
 }
 .link {
-    padding: 75px 0px 65px;
+    padding: 75px 0px 75px;
     background: #343838;
     color: #FFFFFF;
     text-align: center;
@@ -177,12 +180,7 @@ html {
     height: 100%;
     width: 100%;
     margin-bottom: 0px;
-  background-image:
-    linear-gradient(
-      to right,
-      black,
-      grey 10%
-    );
+  background-image: url(../media/unspecified-1.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 48px 0px;
@@ -192,7 +190,7 @@ html {
 }
 .jumbotron .jumbotron-content .jumbotron-paragraph {
     text-align: center;
-    margin-top: 225px;
+    margin-top: 17.5%;
 }
 .jumbotron .jumbotron-content .jumbotron-paragraph h1 {
     color: #FFF;
@@ -255,7 +253,10 @@ nav a {
 }
 .navbar-brand {
     float: left;
-    margin: 0 40px;
+    margin: 0 -15px;
+    background-size: cover;
+}
+.navbar-brand:hover{
 }
 .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0px;
@@ -288,12 +289,13 @@ nav.navbar.shrink .navbar-brand img, .navbar-brand img {
     margin: 0px -15px;
 }
 /* #Navbar */
-
-
 a, a:hover, a:active, a:visited {
     background-color: transparent;
     color: #232325;
     text-decoration: none;
+}
+.project-bottom a{
+    color: inherit;
 }
 .navbar-nav > li {
     float: left;
@@ -359,17 +361,17 @@ footer .copyright {
     background-position: center;
 }
 .photo-footer.homepage {
-    background-image: url("http://cdn.mhpbooks.com/uploads/2015/06/books.jpg");
+    background-image: url("../media/unspecified-2.jpg");
 }
 .portfolio-text p, .portfolio-text h3{
     text-align: left;
 }
 .btn-info{
-    color: #232325;
+    color: #E5E5E5;
     letter-spacing: 0px;
     line-height: 25px;
-    background-color: #FFF;
-    font-family: sans-serif;
+    background-color: #008C9E;
+    font-weight: 500;
     height: 25px;
     width: 125px;
     text-align: center;
@@ -381,26 +383,30 @@ footer .copyright {
     box-shadow: 0 5px #005F6B;
 }
 .btn-info:hover{
+    color: #FFF;
     background-color: #005F6B;
-    box-shadow: 0 1px #27496d;
+    box-shadow: 0 1px #008C9E;
 }
-.btn-contact{
-    color: #232325;
+.btn-info-invert{
+    color: #E5E5E5;
     letter-spacing: 0px;
-    line-height: 25px;
-    background-color: #969594;
+    line-height: 0px;
+    background-color: #005F6B;
+    font-weight: 500;
     height: 25px;
-    width: 100px;
+    width: auto;
     text-align: center;
     transition: 0.75s;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid transparent;
+    padding: 0 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px #008C9E;
 }
-.btn-contact:hover{
-    opacity: 0.75;
-    background-color: #b1b1b1;
-    border: transparent;
-    outline: none !important;
+.btn-info-invert:hover{
+    color: #FFF;
+    background-color: #008C9E;
+    box-shadow: 0 1px #005F6B;
 }
 .sub-jumbotron{
     background-image: url("http://i.imgur.com/2j8KeWD.jpg");
@@ -452,5 +458,5 @@ input:focus, textarea:focus, a:focus, button:focus{
     outline: none !important; /* Removes the disgusting default orange color */
 }
 .blog-topic{
-    color: #232325;
+    margin-bottom: -15px;
 }
